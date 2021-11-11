@@ -163,7 +163,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="6u8-RC-H7e"/>
                     <connections>
-                        <outlet property="imageView" destination="6Zn-qj-idH" id="Ikk-ai-MTr"/>
+                        <outlet property="imageView" destination="0QY-qQ-W9C" id="koI-U4-ETZ"/>
                         <outlet property="mapView" destination="ljC-TN-rjf" id="rqI-wh-W6p"/>
                         <outlet property="placeAtmosphereLabel" destination="g3e-GM-8Pt" id="ilb-SM-twu"/>
                         <outlet property="placeNameLabel" destination="LFr-lZ-oBA" id="dfn-eh-ba5"/>
