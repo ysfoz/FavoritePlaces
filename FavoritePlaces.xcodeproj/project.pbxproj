@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3181E7273D9CB1005EE11A /* PlaceModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3181E6273D9CB0005EE11A /* PlaceModal.swift */; };
 		4E580BB7273D3A2200E4D12D /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E580BB6273D3A2200E4D12D /* PlacesVC.swift */; };
 		4E580BB9273D66CE00E4D12D /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E580BB8273D66CE00E4D12D /* AddPlaceVC.swift */; };
 		4E580BBB273D6B3E00E4D12D /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E580BBA273D6B3E00E4D12D /* MapVC.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E3181E6273D9CB0005EE11A /* PlaceModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModal.swift; sourceTree = "<group>"; };
 		4E580BB6273D3A2200E4D12D /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		4E580BB8273D66CE00E4D12D /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
 		4E580BBA273D6B3E00E4D12D /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				4EC7D54B273C594400F45E61 /* Assets.xcassets */,
 				4EC7D54D273C594400F45E61 /* LaunchScreen.storyboard */,
 				4EC7D550273C594400F45E61 /* Info.plist */,
+				4E3181E6273D9CB0005EE11A /* PlaceModal.swift */,
 			);
 			path = FavoritePlaces;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				4EC7D543273C594100F45E61 /* AppDelegate.swift in Sources */,
 				4E580BB7273D3A2200E4D12D /* PlacesVC.swift in Sources */,
 				4E580BBD273D70D600E4D12D /* DetailsVC.swift in Sources */,
+				4E3181E7273D9CB1005EE11A /* PlaceModal.swift in Sources */,
 				4E580BB9273D66CE00E4D12D /* AddPlaceVC.swift in Sources */,
 				4EC7D545273C594100F45E61 /* SceneDelegate.swift in Sources */,
 			);
