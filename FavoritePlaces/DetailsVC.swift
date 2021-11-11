@@ -6,24 +6,27 @@
 //
 
 import UIKit
+import MapKit
 
 class DetailsVC: UIViewController {
 
+    @IBOutlet var imageView: UIView!
+    
+    @IBOutlet weak var placeNameLabel: UILabel!
+    
+    @IBOutlet weak var placeAtmosphereLabel: UILabel!
+    
+    @IBOutlet weak var mapView: MKMapView!
+    
+    @IBOutlet weak var placeTypeLabel: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+    
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

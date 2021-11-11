@@ -25,7 +25,7 @@ class PlacesVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
     }
     
     @objc func addButtonClicked() {
-        
+        performSegue(withIdentifier: "toAddPlaceVC", sender: nil)
     }
     
     @objc func logautButtonClicked() {
