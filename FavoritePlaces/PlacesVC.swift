@@ -25,7 +25,7 @@ class PlacesVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
         navigationController?.navigationBar.topItem?.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(addButtonClicked))
         
-        navigationController?.navigationBar.topItem?.leftBarButtonItem = UIBarButtonItem(title: "Logaut", style: UIBarButtonItem.Style.plain, target: self, action: #selector(logautButtonClicked))
+        navigationController?.navigationBar.topItem?.leftBarButtonItem = UIBarButtonItem(title: "Logout", style: UIBarButtonItem.Style.plain, target: self, action: #selector(logautButtonClicked))
         
         getDataFromParse()
     }
